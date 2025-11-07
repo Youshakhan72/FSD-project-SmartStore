@@ -14,7 +14,16 @@ body {
   background: linear-gradient(135deg, #2a9df4, #005f99);
   background-attachment: fixed;
 }
-
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background: linear-gradient(90deg, #0066ff, #0099ff);
+  color: #fff;
+  flex-wrap: wrap;
+}
 /* Card Container */
 .auth-container {
   background: #fff;
@@ -104,3 +113,4 @@ body {
     font-size: 15px;
   }
 }
+
